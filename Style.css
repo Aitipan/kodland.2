@@ -1,0 +1,27 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #fd00bede; /* El color del fondo de la página web */
+    color: #00f13c91; /* El color del texto*/ 
+}
+h1 {
+    color: #ff0000c7; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+ 
+
+¿Cómo se conectan las hojas de estilo a la página web?
+
+¡Abra el archivo HTML, que desea estilo!
+Añadada un tag <link> adentro del tag <head> , así: (para que conste, el href contiene el nombre de su archivo .css)
+
+  <head>
+        <title>Información útil</title>
+        <link rel="stylesheet" href="style.css">
+  </head>
+Ahora, actualiza tu página y comprueba si se han aplicado los estilos.
+
+Prueba a cambiar el color del texto de la etiqueta <h2>. Intenta crear la página más atractiva.
+
+<link rel="stylesheet" href="Style.css">
